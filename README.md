@@ -1,5 +1,5 @@
 # JSON to variables
-This action reads json file and writes its content as environment variables.
+This action reads json file and writes its content as environment variables with optional secret masking.
 
 ## Inputs
 
@@ -10,6 +10,10 @@ This action reads json file and writes its content as environment variables.
 ### `prefix`
 
 The prefix. Default value `json`.
+
+### `masked`
+
+Mask variables as secrets. Default value `false`.
 
 ## Usage
 
