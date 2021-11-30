@@ -1,4 +1,4 @@
-name: 'JSON to variables'
+name: 'JSON to environment variables'
 author: 'Roberto García'
 description: 'This action reads json file and writes its content as environment variables'
 branding:
