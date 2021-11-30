@@ -33,10 +33,11 @@ The prefix. Default value `json`.
 ### YML example 
 ```yml
 - name: JSON to variables
-  uses: antifree/json-to-variables@v1.0.1
+  uses: rgarcia-phi/json-to-variables@v1.1.0
   with:
     filename: 'test.json'
     prefix: test
+    masked: true
 - name: Show output
   run: echo "The time was ${{ env.test_value }}, ${{ env.test_array_0_value }}, ${{ env.test_obj_value1 }}"
 ```

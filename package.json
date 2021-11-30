@@ -1,6 +1,6 @@
 {
   "name": "json-to-variables",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "This action reads json file and writes its content as environment variables",
   "main": "index.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antifree/json-to-variables.git"
+    "url": "git+https://github.com/rgarcia-phi/json-to-variables.git"
   },
   "keywords": [],
-  "author": "Anton Ivanenko",
+  "author": "Roberto García",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antifree/json-to-variables/issues"
+    "url": "https://github.com/rgarcia-phi/json-to-variables/issues"
   },
-  "homepage": "https://github.com/antifree/json-to-variables#readme",
+  "homepage": "https://github.com/rgarcia-phi/json-to-variables#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"

@@ -1,9 +1,9 @@
 name: 'JSON to variables'
-author: 'Anton Ivanenko'
+author: 'Roberto García'
 description: 'This action reads json file and writes its content as environment variables'
 branding:
-  icon: 'box'
-  color: 'purple'
+  icon: 'lock'
+  color: 'red'
 inputs:
   filename: 
     description: 'The json file.'
@@ -12,6 +12,10 @@ inputs:
     description: 'The prefix for variables.'
     required: false
     default: 'json'
+  masked:
+    description: 'Mask variables as secrets.'
+    required: false
+    default: 'false'
 runs:
   using: 'node12'
   main: 'dist/index.js'
